@@ -4,7 +4,7 @@
       <ul>
         <li>
           <a href="https://www.creative-tim.com">
-           {{ __('Creative Tim') }}
+              {{ __('Creative Tim') }}
           </a>
         </li>
         <li>

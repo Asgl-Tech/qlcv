@@ -15,7 +15,6 @@
                   <div class="row">
                     <div class="col-sm-12">
                       <div class="alert alert-success">
-                        {{-- demo comment --}}
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                           <i class="material-icons">close</i>
                         </button>
