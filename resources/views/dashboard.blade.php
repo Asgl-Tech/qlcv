@@ -11,7 +11,7 @@
                 <i class="material-icons">content_copy</i>
               </div>
               <p class="card-category">Used Space</p>
-              <h3 class="card-title">49/50
+              <h3 class="card-title">49/500
                 <small>GB</small>
               </h3>
             </div>
