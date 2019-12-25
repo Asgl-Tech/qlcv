@@ -95,9 +95,14 @@ Route::group(['middleware' => 'auth'], function () {
     Route::put('profile', ['as' => 'profile.update', 'uses' => 'ProfileController@update']);
     Route::put('profile/password', ['as' => 'profile.password', 'uses' => 'ProfileController@password']);
 });
-//
-Route::get('introduce',function ()
-{
-    echo "Quang Huy";
+//---------- huy
+Route::group(['prefix' => 'admin', 'middleware' => 'adminlogin'], function () {
+
+    Route::group(['prefix' => 'huytest'], function () {
+
+        Route::get('test', function () {
+            echo "hello";
+        });
+    });
 });
 
