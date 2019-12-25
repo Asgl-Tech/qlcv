@@ -95,9 +95,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::put('profile', ['as' => 'profile.update', 'uses' => 'ProfileController@update']);
     Route::put('profile/password', ['as' => 'profile.password', 'uses' => 'ProfileController@password']);
 });
-//
-Route::get('introduce',function ()
-{
-    echo "Quang Huy";
+
+Route::get('test/quanghuy',function(){
+    echo "Test thôi mà";
 });
 
